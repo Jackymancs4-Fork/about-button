@@ -100,3 +100,21 @@ button, #main .panel-list-item, #open-options {
 #status > div {
 	padding:	0 16px;
 }
+
+@media (min-width: 350px) {
+	body {
+		max-height:	calc(100vh - 40px);
+	}
+
+	#status-container {
+		position: fixed;
+		bottom: 40px;
+		width: 100%
+	}
+
+  #footer {
+		position: fixed;
+		bottom: 0px;
+		width: 100%
+  }
+}
